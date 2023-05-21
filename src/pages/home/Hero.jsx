@@ -1,10 +1,13 @@
 import React from "react";
-import heroimg from "../../images/hero.jpg";
+import heroimg from "../../images/hero.jpeg";
 import logo from '../../images/logo.png'
 import './hero.css'
 
+
+
 export default function Hero() {
   return (
+  
     <div className="hero">
       <div className="nav">
         <div className="nav-left">
@@ -16,7 +19,7 @@ export default function Hero() {
       </div>
       <div className="hero-cont">
         <div className="hero-left">
-          <h1>Need a PG?<br>We got you covered!</br></h1>
+          <h1>Welcome to PGHelp</h1>
           <a href="/login">Join Now</a>
        </div>
         <div className="hero-right">
@@ -24,5 +27,6 @@ export default function Hero() {
         </div>
       </div>
     </div>
+  
   );
 }

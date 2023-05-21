@@ -3,6 +3,12 @@
     height: 100vh;
     background: #eeeeee;
 }
+.login {
+    background-image: url("../../images/bg.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
 .login-cont{
     width: 100%;
     display: flex;
@@ -21,24 +27,30 @@
 }
 .login-head h1{
     margin-top: 30px;
+    color: #fff;
+}
+.login-head p{
+    color: #fff; 
+   
 }
 .login-button{
-    width: 50%;
-    background: white;
+    width: 20%;
+    background: rgb(146, 17, 178);
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    padding: 30px 20px;
+    padding: 20px 10px;
+    
 }
 .login-button button{
-    background: #d0d0d0;
-    padding: 10px 20px;
+    background: #4e05ad;
+    padding: 10px 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
     width: 80%;
-    background: #e6e6e6;
+    background: #eecefa;
     border-radius: 20px;
     border: none;
     justify-content: center;
