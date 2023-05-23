@@ -91,18 +91,19 @@
     
     .login-head h1 {
         margin-top: 20px;
-        color: #fff;
+        color: black;
         font-size: 24px;
     }
     
     .login-head p {
-        color: #fff;
+        color: black;
+        font-weight: 500;
     }
     
     .login-button {
         width: 60%;
         max-width: 300px;
-        background: rgb(146, 17, 178);
+        background: rgb(12, 139, 178);
         border-radius: 20px;
         display: flex;
         justify-content: center;
@@ -111,14 +112,14 @@
     }
     
     .login-button button {
-        background: #4e05ad;
+        background: #0a5486;
         padding: 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 10px;
         width: 100%;
-        background: #eecefa;
+        background: white;
         border-radius: 20px;
         border: none;
         justify-content: center;

@@ -87,11 +87,17 @@
     color: black;
 }
 @media only screen and (max-width:600px){
+    
+    .hero{
+        width: 100%;
+        height: 100vh;
+        background: #eeeeee;
+    }
     .hero {
         background-image: url("../../images/apartment.jpg");
         background-size: cover;
-        width: 110vw;
-        height: 115vh;
+        width: 100vw;
+        height: 110vh;
     }
     
     .nav {
@@ -103,17 +109,18 @@
     }
     
     .nav-left {
-        padding-left: 20px 20;
+        padding-left: 10px 10;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
     .nav-right {
-        padding-right: 20px;
+        padding-right: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 5px;
     }
     
     .nav-left img {
