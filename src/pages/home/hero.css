@@ -88,21 +88,22 @@
 }
 @media only screen and (max-width:600px){
     .hero {
-        background: black;
-        min-height: 100vh;
-        margin-top: -20px;
+        background-image: url("../../images/apartment.jpg");
+        background-size: cover;
+        width: 110vw;
+        height: 115vh;
     }
     
     .nav {
         width: 100%;
-        height: 40px;
+        height: 10px;
         display: flex;
         justify-content: space-between;
         margin: 20px 0px;
     }
     
     .nav-left {
-        padding-left: 20px;
+        padding-left: 20px 20;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -117,7 +118,7 @@
     
     .nav-left img {
         width: 80px;
-        margin-top: 5px;
+        margin-top: 20px;
     }
     
     .nav-right a {
@@ -127,7 +128,7 @@
         padding: 10px 20px;
         color: white;
         font-size: 14px;
-        margin-top: 5px;
+        margin-top: 25px;
     }
     
     .nav-right a:hover {
@@ -153,25 +154,30 @@
         font-size: 32px;
         color: white;
         margin: 0;
+        
     }
     
     .hero-right img {
-        width: 100%;
+        width: 0%;
         border-radius: 20px;
+       
     }
-    
+    .hero-left a{
+        position: relative;
+        top: 20px;
+    }
     .hero-left a {
-        background: black;
+       background: black;
         border: none;
         padding: 10px 20px;
         color: white;
         border-radius: 20px;
         text-decoration: none;
-    }
+        }
     
     .hero-left a:hover {
         background: none;
         border: 2px solid black;
         color: black;
-    }
+        }
 }
