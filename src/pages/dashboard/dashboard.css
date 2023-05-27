@@ -323,6 +323,7 @@ border-radius: 20px;
   }
   
   .card-img {
+    padding: 20px;
     flex: 1;
     max-width: 120px;
   }
@@ -336,8 +337,8 @@ border-radius: 20px;
   
   .card-cont {
     flex: 2;
-    display: flex;
-    flex-direction: column;
+    display:contents;
+    flex-direction:row;
     justify-content: space-between;
   }
   
