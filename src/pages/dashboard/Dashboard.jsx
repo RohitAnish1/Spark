@@ -122,10 +122,7 @@ export default function Dashboard() {
               <p>{data.facilities}</p>
               <h2>{data.rent}</h2>
             </div>
-            <div className="card-r">
-              <img src={data.photo_url} alt="" />
-              <p>{data.owner_name}</p>
-            </div>
+            
           </div>
         </div>
       ))}

@@ -1,5 +1,4 @@
 import React from "react";
-import heroimg from "../../images/hero.jpeg";
 import logo from '../../images/logo.png'
 import './hero.css'
 
@@ -22,9 +21,6 @@ export default function Hero() {
           <h1>Welcome to PGHelp</h1>
           <a href="/login">Join Now</a>
        </div>
-        <div className="hero-right">
-          <img src={heroimg} alt=""></img>
-        </div>
       </div>
     </div>
   

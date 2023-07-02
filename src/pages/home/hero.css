@@ -1,8 +1,15 @@
 .hero{
-    background: black;
-   min-height: 100vh;
+    
+    width: 100%;
+    height: 100vh;
     margin-top: -20px ;
     
+}
+.hero{
+    background-image: url("../../images/bg1.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 .nav{
@@ -38,6 +45,7 @@
     color: white;
     font-size: 17px;
     margin-top: 15px;
+    font-family:sans-serif;
 }
 .nav-right a:hover{
     background: white;
@@ -79,6 +87,8 @@
     color: white;
     border-radius: 20px;
     text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
 
 }
 .hero-left a:hover{

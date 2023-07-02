@@ -48,8 +48,7 @@ export default function Login() {
         <div className="login-head">
           <h1>Welcome To PGHelp</h1>
           <p>
-            Find your perfect PG in seconds with PGHelp <br></br>The ultimate
-            time-saving app for locating nearby PG!
+          Unlock the Perfect Pad: <br></br>Discover Your Dream PG with a Single Click!
           </p>
          
         </div>
@@ -58,6 +57,7 @@ export default function Login() {
           
           onClick={handleSignIn}
           className="login-btn">
+            
             <img src={google} alt=""></img>
             <p> Sign in with Google</p>
           </button>
