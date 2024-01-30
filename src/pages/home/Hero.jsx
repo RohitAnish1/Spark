@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
       <div className="hero-cont">
         <div className="hero-left">
-          <h1>Welcome to PGHelp</h1>
+          <h1>Welcome to Spark</h1>
           <a href="/login">Join Now</a>
        </div>
       </div>

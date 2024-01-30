@@ -46,9 +46,9 @@ export default function Login() {
     <div className="login">
       <div className="login-cont">
         <div className="login-head">
-          <h1>Welcome To PGHelp</h1>
+          <h1>Welcome To Spark</h1>
           <p>
-          Unlock the Perfect Pad: <br></br>Discover Your Dream PG with a Single Click!
+          Platform where community activities meets <br></br>Newer Posibilities!
           </p>
          
         </div>

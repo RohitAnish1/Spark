@@ -131,9 +131,9 @@ export default function Dashboard() {
           </div>
           <div className="right-bar">
             <div className="addpg">
-              <h2>Add Your PG</h2>
+              <h2>Add Your Initiative</h2>
               <div>
-                <label>PG Name:</label> <br />
+                <label>Initiative Name:</label> <br />
                 <input
                   type="text"
                   value={pg.pg_name}
@@ -154,7 +154,7 @@ export default function Dashboard() {
                 </button>
                 <br />
                 <br />
-                <label>Address:</label> <br />
+                <label>Location:</label> <br />
                 <input
                   id="address"
                   name="address"
@@ -162,16 +162,9 @@ export default function Dashboard() {
                   onChange={handleChange}
                 />
                 <br />
-                <label>Facilities:</label> <br />
-                <input
-                  type="text"
-                  id="facilities"
-                  name="facilities"
-                  value={pg.facilities}
-                  onChange={handleChange}
-                />
+
                 <br />
-                <label>Rent:</label> <br />
+                <label>Credits:</label> <br />
                 <input
                   type="number"
                   id="rent"
